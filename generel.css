@@ -1,0 +1,21 @@
+@media (max-width: 799px) {
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
+@media (min-width: 800px) {
+  .box_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    gap: 1em;
+  }
+  .box_grid2 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 1em;
+    margin: 15px;
+  }
+}
